@@ -9,7 +9,7 @@ export default function Header() {
         <div
           className={`header-menu__logo`}
           style={{
-            backgroundImage: "url(/assets/images/logo-maeztra-novo.png)",
+            backgroundImage: "url(assets/images/logo-maeztra-novo.png)",
           }}
         />
         <div className="header-menu__search">
