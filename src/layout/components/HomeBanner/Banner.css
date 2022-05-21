@@ -1,0 +1,136 @@
+.home-banner {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 24px;
+    background-color: #e6e6e6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-banner__container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: #fff;
+}
+
+.home-banner__content {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.home-banner__content img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home-banner__content__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 40px;
+}
+
+.home-banner__content__text {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.home-banner__content__block {
+    position: absolute;
+    top: 151px;
+    bottom: 0;
+    left: 323px;
+    right: 0;
+    text-align: left;
+    display: block;
+    max-width: 471px;
+    z-index: 2;
+}
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #000;
+}
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid #000;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+    background-color: transparent;
+}
+
+.carousel .dot {
+    height: 16px !important;
+    width: 16px !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: 2px solid #FAA500 !important;;
+}
+
+.carousel .dot.selected {
+    background-color: #FAA500 !important;
+}
+
+.home-banner .slide {
+    height: 600px;
+}
+
+.home-banner .swiper-button-next {
+    width: fit-content !important;
+    right: 161px !important;
+}
+
+.home-banner .swiper-button-prev {
+    width: fit-content !important;
+    left: 161px !important;
+}
+
+@media (max-width: 1024px) {
+    .shelf-container {
+        margin-bottom: 23px !important;
+    }
+
+    .home-banner .swiper-button-next {
+        right: 28px !important;
+    }
+    
+    .home-banner .swiper-button-prev {
+        left: 28px !important;
+    }
+
+    .home-banner .slide {
+        height: 320px;
+    }
+
+    .home-banner {
+        height: 320px;
+    }
+
+    .department-bar {
+        display: none;
+    }
+
+    .home-banner__content__block {
+        top: 63px;
+        left: 63px;
+        max-width: 239px;
+    }
+
+    .home-banner__content__title {
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 24px;
+    }
+
+    .home-banner__content__text {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 16px;
+     }
+
+    .shelf-container {
+        padding: 0 16px;
+    }
+}

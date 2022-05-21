@@ -1,0 +1,14 @@
+.search-bar {
+    display: flex;
+    flex: 1;
+    height: 40px;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    margin: 0 147px 0 93px;
+}
+
+.search-bar__input {
+    flex: 1;
+    padding-left: 24px;
+    background-color: transparent;
+}

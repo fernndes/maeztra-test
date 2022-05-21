@@ -1,0 +1,61 @@
+.tipbar-brands {
+    margin-bottom: 80px;
+}
+
+.section__tipbar-brands {
+    margin-bottom: 17px;
+}
+
+.tipbar-content {
+    margin-bottom: 74px;
+}
+
+.tipbar__section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 21px;
+    color: #353535;
+}
+
+.tipbar-contents__card {
+    display: flex;
+    align-items: center;
+    min-height: 64px;
+    padding-left: 27px;
+    padding-right: 27px;
+    background: #EFEFEF;
+    border-radius: 4px;
+}
+
+.tipbar-contents__content {
+    margin-left: 22px;
+}
+
+.tipbar-contents__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #353535;
+}
+
+.tipbar-contents__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+@media (max-width: 1024px) {
+    .tipbar-content {
+        margin-bottom: 40px;
+    }
+
+    .tipbar-brands {
+        margin-bottom: 39px;
+    }
+}
