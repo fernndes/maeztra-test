@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/maeztra-test/static/css/main.d1a98f61.css",
+    "main.css": "/maeztra-test/static/css/main.a8934c82.css",
     "main.js": "/maeztra-test/static/js/main.3751e15c.js",
     "index.html": "/maeztra-test/index.html",
-    "main.d1a98f61.css.map": "/maeztra-test/static/css/main.d1a98f61.css.map",
+    "main.a8934c82.css.map": "/maeztra-test/static/css/main.a8934c82.css.map",
     "main.3751e15c.js.map": "/maeztra-test/static/js/main.3751e15c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1a98f61.css",
+    "static/css/main.a8934c82.css",
     "static/js/main.3751e15c.js"
   ]
 }
