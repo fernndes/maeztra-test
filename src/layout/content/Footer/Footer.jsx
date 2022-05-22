@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="container footer">
       {footer.content.map((section, index) => {
         return (
-          <div className="footer__content">
+          <div key={`${section.title}-${index}`} className="footer__content">
             <p className="footer__title">{section.title}</p>
             <ul>
               {section.topics.map((topic, topicIndex) => {

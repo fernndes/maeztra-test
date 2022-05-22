@@ -20,8 +20,8 @@ export default function Banner() {
       >
         {banner.map((content, index) => {
           return (
-            <SwiperSlide>
-              <div key={`${content}-${index}`} className="home-banner__content">
+            <SwiperSlide key={`${content.title}-${index}`}>
+              <div className="home-banner__content">
                 <img src={content.imageUrl} alt="banner" />
                 <div className="home-banner__content__block">
                   <p className="home-banner__content__title">{content.title}</p>

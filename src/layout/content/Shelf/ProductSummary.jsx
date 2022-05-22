@@ -34,7 +34,7 @@ export default function ProductSummary() {
         >
           {shelf.content.map((product, index) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide key={`${product.productName}-${index}`}>
                 <div className="shelf__product-summary">
                   <div
                     className="shelf__product-image"
