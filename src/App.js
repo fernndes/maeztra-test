@@ -1,4 +1,3 @@
-import "./App.css";
 import DepartmentBar from "./layout/components/DepartmentsBar/DepartmentBar";
 import Header from "./layout/components/Header/Header";
 import Footer from "./layout/content/Footer/Footer";
